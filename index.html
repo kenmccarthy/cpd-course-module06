@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standing Over Your Decisions — SETU CPD Course</title>
+  <meta name="description" content="A practical, NFQ Level 8 guide to academic governance and quality assurance — Programme Boards, Exam Boards, external examiners and defensible academic judgement — anchored to SETU's Academic Regulations. South East Technological University (SETU).">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to course content</a>
+<!-- Inline icon sprite — line icons on a 24px grid (paths adapted from Lucide, ISC licence).
+     Use: <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-NAME"></use></svg>
+     or, from JS, Course.icon("NAME"). Add new symbols here; keep them decorative (text carries meaning). -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon-sprite" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="i-gavel" viewBox="0 0 24 24"><path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3L11 9.999"/><path d="M15.973 4.027A13 13 0 0 0 5.902 2.373c-1.398.342-1.092 2.158.277 2.601a19.9 19.9 0 0 1 5.822 3.024"/><path d="M16.001 11.999a19.9 19.9 0 0 1 3.024 5.824c.444 1.369 2.26 1.676 2.603.278A13 13 0 0 0 20 8.069"/><path d="M18.352 3.352a1.205 1.205 0 0 0-1.704 0l-5.296 5.296a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l5.296-5.296a1.205 1.205 0 0 0 0-1.704z"/></symbol>
+  <symbol id="i-landmark" viewBox="0 0 24 24"><path d="M10 18v-7"/><path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5"/><path d="m21 12-9 5-9-5"/><path d="m21 17-9 5-9-5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-swap" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3"/><path d="M1 14h6M9 8h6M17 16h6"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></symbol>
+  <symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8M16 13H8M16 17H8"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-calculator" viewBox="0 0 24 24"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 14v4M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></symbol>
+  <symbol id="i-blocks" viewBox="0 0 24 24"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></symbol>
+  <symbol id="i-list-checks" viewBox="0 0 24 24"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+  <symbol id="i-rotate" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+  <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+  <symbol id="i-warning" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+</svg>
+<div class="sr-only" id="a11yStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+<div class="app">
+
+  <!-- ============================ SIDEBAR ============================ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <img class="sidebar__logo" src="assets/MONO_WHITE.png" alt="SETU — South East Technological University">
+      <p class="sidebar__kicker">CPD · Self-paced</p>
+      <h1 class="sidebar__title">Standing Over Your Decisions</h1>
+      <p class="sidebar__meta"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"></use></svg> ~30 minutes · 7 sections</p>
+    </div>
+
+    <div class="progress">
+      <div class="progress__label"><span>Your progress</span><span id="progressPct">0%</span></div>
+      <div class="progress__track"><div class="progress__fill" id="progressFill"></div></div>
+    </div>
+
+    <nav aria-label="Course sections">
+      <ul class="nav" id="nav"><!-- populated by JS --></ul>
+    </nav>
+
+    <div class="sidebar__foot">
+      <button class="sidebar__theme" id="themeBtnSide" type="button">
+        <span class="sidebar__theme-icon" id="themeIcon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-moon"></use></svg></span> <span id="themeLabel">Toggle dark mode</span>
+      </button>
+      <p style="margin:14px 0 0">South East Technological University · A practical guide for part-time &amp; industry-based lecturers.</p>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+  <!-- ============================ MAIN ============================ -->
+  <div class="main">
+    <div class="topbar">
+      <button class="icon-btn" id="menuBtn" type="button" aria-label="Open course menu" aria-controls="sidebar" aria-expanded="false"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"></use></svg></button>
+      <img class="topbar__logo" src="assets/MONO_WHITE.png" alt="SETU">
+      <span class="topbar__title" id="topTitle">Standing Over Your Decisions</span>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to dark mode"><span id="themeIconTop" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-moon"></use></svg></span></button>
+    </div>
+
+    <main class="content-scroll" id="scroll" tabindex="-1"><div id="main"></div>
+
+      <!-- =================================================================
+           COURSE OVERVIEW (Rise-style front door)
+      ================================================================== -->
+      <section class="lesson lesson--overview" data-lesson="overview" data-accent="1">
+        <div class="ov-hero">
+          <span class="ov-hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="ov-hero__panel u-panel grad-mesh">
+            <span class="eyebrow"><span class="u-mark" aria-hidden="true"></span> Lifelong Learning at SETU · CPD</span>
+            <h1 id="ovTitle" tabindex="-1">Standing Over Your Decisions</h1>
+            <p class="ov-hero__sub" id="ovSubtitle">Engage confidently in academic governance and quality assurance</p>
+            <p class="ov-hero__meta"><span id="ovMeta">~30 minutes · 7 sections</span> · <span id="ovPct">0%</span> complete</p>
+          </div>
+          <div class="ov-hero__side">
+            <p class="tagline" id="ovTagline">LEARN MORE.<br>GO FURTHER.</p>
+            <button class="btn btn--primary btn--lg" id="overviewCta" type="button">Start the course</button>
+          </div>
+        </div>
+        <h2 class="ov-h2" id="lessonsHeading">Lessons</h2>
+        <div class="lcards" id="lessonCards" role="list" aria-labelledby="lessonsHeading"></div>
+        <p class="ov-note">Your progress is saved automatically on this device — return to any lesson at any time.</p>
+      </section>
+
+      <!-- =================================================================
+           SECTION 1 — WELCOME AND ORIENTATION  (data-lesson="0")
+      ================================================================== -->
+      <section class="lesson" data-lesson="0" data-accent="1">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 1 of 7</span>
+            <h1 tabindex="-1">Standing over your decisions</h1>
+            <p class="hero__meta">~2 min read</p>
+          </div>
+          <!-- Photo theme: Our People. Progress strip rendered by js/rise.js. Optional cover photo: add
+               <img class="hero__bg" src="assets/…" alt=""> as the first child of .hero -->
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <p class="lead">Whether you are a lecturer new to the sector, a practitioner who has recently moved from industry, or an experienced teacher stepping into a programme leadership role, at some point you will be asked to <strong>sit on a board, sign off a result, or defend a grade</strong>. This session is about doing that with confidence.</p>
+
+        <div class="card card--objectives">
+          <h2>By the end of this unit you should be able to:</h2>
+          <ul class="obj-list">
+            <li>Explain why quality assurance and academic oversight matter in Irish higher education, and how they operate at Levels 7, 8 and 9 of the National Framework of Qualifications</li>
+            <li>Participate effectively in Programme Boards and Exam Boards, and work productively with an external examiner</li>
+            <li>Justify academic judgements transparently, and recognise and avoid common QA pitfalls</li>
+          </ul>
+        </div>
+
+        <p>Throughout, I will ask you to bring your own professional experience into play. If you have worked in industry, you already know something about <strong>audit, compliance, peer review and professional standards</strong>. That knowledge is directly transferable here, so use it.</p>
+
+        <div class="gate" data-gate></div>
+
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book-open"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>Your reference document.</strong> <em>Academic Regulations for Taught Programmes 2026-2027</em> (Version 4.0), SETU. Approved by Academic Council on 19 May 2026; effective for the 2026-27 academic year.</p>
+          </div>
+        </div>
+        <p class="placeholder-note">[Add the link to the Regulations PDF here before publishing.]</p>
+
+        <p>This session is anchored to SETU's own rulebook. When a section is mentioned, such as <span class="clause"><span class="sr-only">Regulations section </span>7.4</span> or <span class="clause"><span class="sr-only">Regulations section </span>8.10</span>, the clause number appears on screen so you can go straight to it.</p>
+
+        <div class="callout callout--tip">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-warning"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>One practical note.</strong> Some supporting documents still differ between the former <strong>ADF</strong> system, which covers the Carlow, Wexford and Wicklow campuses, and the former <strong>SAM</strong> system, which covers Waterford. Check which applies to your programme.</p>
+          </div>
+        </div>
+
+        <div class="reflect" data-reflect="s0">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Reflection &middot; not scored</div>
+          <p class="reflect__prompt" id="reflect-s0">Think of a time in your professional life when someone checked your work against a standard. What made that process feel fair or unfair?</p>
+          <textarea aria-labelledby="reflect-s0" placeholder="Jot your thoughts here &mdash; saved only on this device&hellip;"></textarea>
+          <div class="reflect__foot">
+            <span class="reflect__note">Hold on to that thought. We will return to it.</span>
+            <button class="reflect__save" type="button">Save note</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <span></span>
+          <button class="btn btn--primary" data-next>Start the course <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           SECTION 2 — WHY QUALITY ASSURANCE MATTERS  (data-lesson="1")
+      ================================================================== -->
+      <section class="lesson" data-lesson="1" data-accent="2">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 2 of 7</span>
+            <h1 tabindex="-1">Why quality assurance matters in Irish higher education</h1>
+            <p class="hero__meta">~5 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <div class="statement"><span class="u-watermark" aria-hidden="true"></span><span>Quality assurance can sound like administration, but it is really about a promise.</span></div>
+
+        <p class="lead">When we award a qualification, we are telling learners, employers, professional bodies and society that this person has achieved certain knowledge, skills and competence. <strong>Academic oversight is how we keep that promise credible.</strong></p>
+
+        <p>In Ireland, that promise operates within a clear legal and policy framework. The Qualifications and Quality Assurance (Education and Training) Act 2012, as amended in 2019, established Quality and Qualifications Ireland, QQI, and gave it responsibility for the National Framework of Qualifications and for the external review of quality assurance in providers.</p>
+        <p>QQI's Core Statutory Quality Assurance Guidelines set out expectations for areas such as governance, programme design and approval, assessment of learners, and staff recruitment and development. These sit alongside topic-specific guidelines, for example on blended learning, and sector-specific guidance. Across Europe, the same principles reflect the Standards and Guidelines for Quality Assurance in the European Higher Education Area, usually called the <strong>ESG</strong>.</p>
+        <p>At SETU, Academic Council holds primary responsibility for the quality of programmes, the learning environment and assessment leading to awards, with oversight from Governing Body. The Regulations you will use in this session are an expression of that responsibility.</p>
+
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-landmark"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>In the Regulations: section <span class="clause">1</span>.</strong> Legal anchor: Technological Universities Act 2018, section 17(1). The Regulations draw on QQI's <em>Assessment and Standards</em> (revised 2022), QQI's <em>Core Statutory Quality Assurance Guidelines</em> (2016), the Joint-Sectoral Protocol on inclusion of qualifications in the NFQ (2022), the ESG (2015) and the SETU Quality Framework.</p>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <h2>The layers, from Europe to your module</h2>
+        <ol class="layers" aria-label="Layers of quality assurance, from European to individual">
+          <li class="layers__row"><span class="layers__tier">European</span><strong>The ESG</strong><span>Standards and Guidelines for Quality Assurance in the European Higher Education Area</span></li>
+          <li class="layers__row"><span class="layers__tier">National</span><strong>QQI legislation and guidelines</strong><span>The 2012 Act, and the Core Statutory Quality Assurance Guidelines</span></li>
+          <li class="layers__row"><span class="layers__tier">Institution</span><strong>SETU Academic Council</strong><span>and the Academic Regulations for Taught Programmes 2026-2027</span></li>
+          <li class="layers__row"><span class="layers__tier">Programme</span><strong>Programme Board and Exam Board</strong><span>Where QA actually happens</span></li>
+          <li class="layers__row layers__row--you"><span class="layers__tier">You</span><strong>Your module and your assessment decisions</strong><span>The layer the whole structure depends on</span></li>
+        </ol>
+
+        <div class="statement"><span class="u-watermark" aria-hidden="true"></span><span>Notice the last layer. The whole structure depends on individual academics making sound decisions in their own modules. Quality assurance is not something done <em>to</em> you. You are part of it.</span></div>
+
+        <h2>What does &ldquo;quality&rdquo; mean?</h2>
+        <p>Harvey and Green, in their influential 1993 paper, argued that quality is not one thing. It can mean <strong>exceptional</strong>, <strong>perfection or consistency</strong>, <strong>fitness for purpose</strong>, <strong>value for money</strong>, or <strong>transformation of the learner</strong>.</p>
+        <p>Ireland's approach leans towards fitness for purpose and enhancement. Quality assurance is expected to protect standards, and it is also expected to help us improve. The National Forum for the Enhancement of Teaching and Learning has consistently framed it that way, emphasising a culture of enhancement rather than compliance alone.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>What you are checking for, at each level</h2>
+        <div class="tabs" data-tabs="levels">
+          <div class="tabs__list" role="tablist" aria-label="Quality assurance at NFQ levels">
+            <button class="tabs__btn" data-tab="7" role="tab" id="levelstab-7" aria-controls="levelspanel-7" aria-selected="false" tabindex="-1" type="button">Level 7</button>
+            <button class="tabs__btn is-active" data-tab="8" role="tab" id="levelstab-8" aria-controls="levelspanel-8" aria-selected="true" tabindex="0" type="button">Level 8</button>
+            <button class="tabs__btn" data-tab="9" role="tab" id="levelstab-9" aria-controls="levelspanel-9" aria-selected="false" tabindex="-1" type="button">Level 9</button>
+          </div>
+          <div class="tabs__panel" data-panel="7" role="tabpanel" id="levelspanel-7" aria-labelledby="levelstab-7" tabindex="0">
+            <span class="tabs__level">Ordinary Bachelor Degree</span>
+            <h3>Broad knowledge, applied in a defined context</h3>
+            <p>The programme aims to develop broad knowledge and skills, typically applied within a defined professional context.</p>
+            <div class="tabs__example"><span>QA focus</span>Alignment with professional or industry expectations, and consistency of practical assessment.</div>
+            <div class="tabs__example"><span>In the Regulations <span class="clause"><span class="sr-only">Regulations section </span>7.3.2</span></span>Bachelor Degree, 180 credits. (The Higher Certificate sits at Level 6, 120 credits.)</div>
+          </div>
+          <div class="tabs__panel is-active" data-panel="8" role="tabpanel" id="levelspanel-8" aria-labelledby="levelstab-8" tabindex="0">
+            <span class="tabs__level">Honours Bachelor Degree</span>
+            <h3>Critical understanding and independent judgement</h3>
+            <p>The programme aims to develop critical understanding, independent judgement and the ability to work with complex, unfamiliar problems.</p>
+            <div class="tabs__example"><span>QA focus</span>Evidence that assessment genuinely tests critical thinking and application rather than description.</div>
+            <div class="tabs__example"><span>In the Regulations <span class="clause"><span class="sr-only">Regulations section </span>7.3.2</span></span>Honours Bachelor Degree, 180&ndash;240 credits; Higher Diploma, 60 credits.</div>
+          </div>
+          <div class="tabs__panel" data-panel="9" role="tabpanel" id="levelspanel-9" aria-labelledby="levelstab-9" tabindex="0">
+            <span class="tabs__level">Master's Degree</span>
+            <h3>Advanced, specialised and often original work</h3>
+            <p>The programme aims to develop advanced, specialised knowledge and research or professional innovation.</p>
+            <div class="tabs__example"><span>QA focus</span>Depth and originality, research supervision and dissertation marking, and the role of second and external markers.</div>
+            <div class="tabs__example"><span>In the Regulations <span class="clause"><span class="sr-only">Regulations section </span>7.3.2</span></span>Postgraduate Diploma, 60 credits; Master's Degree, 90&ndash;120 credits. Entry is normally a Level 8 major award in a related discipline <span class="clause"><span class="sr-only">Regulations section </span>6.6.1</span>.</div>
+          </div>
+        </div>
+
+        <p>Take a moment to open each tab. The principles of QA are the same at every level, but what you are checking for shifts. At Level 7, you are largely confirming that learners can apply established knowledge reliably. At Level 8, you are looking for critical engagement and independent judgement. At Level 9, the expectation moves to advanced, specialised and often original work, which makes marking more interpretive and calls for greater care around moderation.</p>
+
+        <div class="gate" data-gate></div>
+
+        <div class="match" data-match="descriptors">
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"></use></svg> Quick check &middot; Which level does each descriptor describe?</div>
+          <p style="color:var(--ink-soft)">Drag each assessment descriptor onto the level it describes &mdash; or select a descriptor, then choose a level.</p>
+          <div class="match__grid">
+            <div>
+              <div class="match__col-title">Assessment descriptors</div>
+              <div class="tokens" id="descTokens">
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d1" data-level="8">Compares and critiques two competing theoretical models</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d2" data-level="7">Follows a standard procedure accurately</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d3" data-level="9">Designs and defends an original research method</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d4" data-level="7">Applies an established technique to a familiar, well-defined case</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d5" data-level="9">Synthesises advanced sources to make an original contribution to a specialised question</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="d6" data-level="8">Evaluates evidence and justifies a recommendation for an unfamiliar problem</div>
+              </div>
+            </div>
+            <div>
+              <div class="match__col-title">NFQ level</div>
+              <div class="drops">
+                <div class="drop" data-accept="7"><button class="drop__target" type="button" aria-label="Place the selected descriptor on Level 7">Level 7</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="8"><button class="drop__target" type="button" aria-label="Place the selected descriptor on Level 8">Level 8</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="9"><button class="drop__target" type="button" aria-label="Place the selected descriptor on Level 9">Level 9</button><span class="drop__slot"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="match__actions">
+            <button class="btn btn--primary btn--sm" data-check>Check my answers</button>
+            <button class="btn btn--ghost btn--sm" data-reset>Reset</button>
+            <span class="kc__score" data-matchscore role="status"></span>
+          </div>
+          <div class="match__why" data-matchreveal hidden>
+            <h3>Why each one sits where it does</h3>
+            <dl class="why">
+              <div><dt>Follows a standard procedure accurately</dt><dd><strong>Level 7.</strong> It confirms that an established method is applied reliably.</dd></div>
+              <div><dt>Applies an established technique to a familiar, well-defined case</dt><dd><strong>Level 7.</strong> Established knowledge applied within a defined context.</dd></div>
+              <div><dt>Compares and critiques two competing theoretical models</dt><dd><strong>Level 8.</strong> Critical understanding: the learner weighs models against each other instead of describing them.</dd></div>
+              <div><dt>Evaluates evidence and justifies a recommendation for an unfamiliar problem</dt><dd><strong>Level 8.</strong> Independent judgement on a complex, unfamiliar problem.</dd></div>
+              <div><dt>Designs and defends an original research method</dt><dd><strong>Level 9.</strong> Advanced, specialised and original: the learner creates the method, not just uses one.</dd></div>
+              <div><dt>Synthesises advanced sources to make an original contribution to a specialised question</dt><dd><strong>Level 9.</strong> A contribution to a specialised question, built from advanced sources.</dd></div>
+            </dl>
+            <p>Each explanation draws on the NFQ level indicators; check the full indicators for your own discipline.</p>
+          </div>
+        </div>
+
+        <div class="reflect" data-reflect="s1">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your experience &middot; not scored</div>
+          <p class="reflect__prompt" id="reflect-s1">In your own sector, who checks the quality of professional work: a regulator, a professional body, a peer reviewer? Which of those practices do you think would transfer well to academic QA, and which would not?</p>
+          <textarea aria-labelledby="reflect-s1" placeholder="Jot your thoughts here &mdash; saved only on this device&hellip;"></textarea>
+          <div class="reflect__foot">
+            <span class="reflect__note">Just for your own thinking.</span>
+            <button class="reflect__save" type="button">Save note</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">Welcome</span></button>
+          <button class="btn btn--primary" data-next><span class="long">Programme &amp; Exam Boards</span> <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+      <!-- =================================================================
+           SECTION 3 — PROGRAMME BOARDS AND EXAM BOARDS  (data-lesson="2")
+      ================================================================== -->
+      <section class="lesson" data-lesson="2" data-accent="3">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 3 of 7</span>
+            <h1 tabindex="-1">Participating in Programme Boards and Exam Boards</h1>
+            <p class="hero__meta">~7 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <p class="lead">Now to the places where QA actually happens. The two you are most likely to encounter are the <strong>Programme Board</strong> and the <strong>Exam Board</strong>. Titles and structures vary between institutions, so always check your own institution's academic regulations, but the functions are broadly similar.</p>
+
+        <h2>Programme Boards</h2>
+        <p>A Programme Board, sometimes called a Course Board, takes a view of the programme as a whole. It is concerned with the learner experience, the coherence of the curriculum, alignment between module learning outcomes and programme learning outcomes, and the health of the programme over time. It typically reviews learner feedback, progression and retention data, external examiner reports, and proposed modifications.</p>
+        <p>In SETU's Regulations the Programme Board is the primary management unit for a programme. It reports to the Faculty Management Team and is ultimately accountable to Academic Council <span class="clause"><span class="sr-only">Regulations section </span>7.4.4&ndash;7.4.5</span>. Membership is not ceremonial: the Regulations list its responsibilities, from monitoring the education standard to reviewing external examiner reports <span class="clause"><span class="sr-only">Regulations section </span>7.4.7</span>.</p>
+
+        <h3>Programme Boards: what the Regulations say</h3>
+        <div class="accordion" data-accordion="board">
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="bacc-body-1" id="bacc-head-1">
+              <span class="acc__n" aria-hidden="true">1</span><span class="acc__q">Membership <span class="clause"><span class="sr-only">Regulations section </span>7.4.8</span></span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="bacc-body-1" role="region" aria-labelledby="bacc-head-1"><div class="acc__inner">
+              <p>At minimum: the Programme Leader, the Head of Department, all academic staff involved in delivery, and student representatives.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="bacc-body-2" id="bacc-head-2">
+              <span class="acc__n" aria-hidden="true">2</span><span class="acc__q">Meetings <span class="clause"><span class="sr-only">Regulations section </span>7.4.10&ndash;7.4.12</span></span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="bacc-body-2" role="region" aria-labelledby="bacc-head-2"><div class="acc__inner">
+              <p>At least once every semester. The agenda is circulated in advance with an Any Other Business item, and minutes are retained by the Faculty. Reserved items, such as individual student results, can exclude student representatives.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="bacc-body-3" id="bacc-head-3">
+              <span class="acc__n" aria-hidden="true">3</span><span class="acc__q">Conflicts of interest <span class="clause"><span class="sr-only">Regulations section </span>7.4.9</span></span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="bacc-body-3" role="region" aria-labelledby="bacc-head-3"><div class="acc__inner">
+              <p>Declare them and, where necessary, step out of the relevant discussion.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="bacc-body-4" id="bacc-head-4">
+              <span class="acc__n" aria-hidden="true">4</span><span class="acc__q">Assessment <span class="clause"><span class="sr-only">Regulations section </span>8.3.3</span> <span class="clause"><span class="sr-only">Regulations section </span>8.3.7</span></span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="bacc-body-4" role="region" aria-labelledby="bacc-head-4"><div class="acc__inner">
+              <p>Publish an assessment strategy cross-referenced to learning outcomes and national standards, and prepare and review an assessment schedule to avoid over-assessment.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="bacc-body-5" id="bacc-head-5">
+              <span class="acc__n" aria-hidden="true">5</span><span class="acc__q">Reporting <span class="clause"><span class="sr-only">Regulations section </span>7.4.13</span> <span class="clause"><span class="sr-only">Regulations section </span>7.8.3</span></span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="bacc-body-5" role="region" aria-labelledby="bacc-head-5"><div class="acc__inner">
+              <p>An Annual Programme Board Report to Academic Council.</p>
+            </div></div>
+          </div>
+        </div>
+
+        <p>A useful principle here is <strong>constructive alignment</strong>, from John Biggs (1996): learning outcomes, teaching activities and assessment should all point at the same thing. When you sit on a Programme Board, constructive alignment is your best diagnostic tool.</p>
+        <div class="callout callout--tip">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>A question to carry in.</strong> If a module claims to develop critical evaluation, ask where it is taught, and ask where it is assessed.</p>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <h3>Closing the loop</h3>
+        <ol class="steps">
+          <li><strong>Receive the evidence.</strong> Data, feedback, the external examiner report.</li>
+          <li><strong>Identify themes and risks.</strong></li>
+          <li><strong>Agree actions</strong> with owners and deadlines.</li>
+          <li><strong>Record the decision</strong> and the rationale.</li>
+          <li><strong>Close the loop</strong> at the next meeting.</li>
+        </ol>
+        <p>That final step, closing the loop, is where many programmes fall down. QQI's guidelines place considerable emphasis on this: collecting feedback matters less than demonstrably acting on it and telling stakeholders what changed. Learners and external examiners notice quickly when their input vanishes into a void.</p>
+        <p>The Regulations give the loop a concrete shape. The Annual Programme Board Report must cover progress on earlier issues, actions on external examiner and student feedback, actions on input from external bodies and industry, recruitment, performance, progression and retention, and plans for development <span class="clause"><span class="sr-only">Regulations section </span>7.8.3.2</span>. Faculties then send summaries to Academic Council <span class="clause"><span class="sr-only">Regulations section </span>7.8.4</span>.</p>
+        <p class="placeholder-note">[There are templates for these reports at the bottom of the Academic Council page on the SETU website. Add the link before publishing.]</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Exam Boards</h2>
+        <p>An Exam Board confirms results and makes decisions about progression, awards and classifications. Its purpose is to ensure that assessment outcomes are fair, consistent, and in line with the institution's regulations. Typically, it will consider module results, any moderation or second-marking outcomes, mitigating circumstances, academic integrity cases, and the external examiner's views on standards.</p>
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-gavel"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>How an Exam Board differs from a Programme Board.</strong> A Programme Board looks forward, towards improvement. An Exam Board looks at specific outcomes for specific learners, so <strong>confidentiality, consistency and procedural fairness</strong> come first.</p>
+          </div>
+        </div>
+        <p>SETU's Regulations are specific about how an Exam Board works. It meets after each examination session, chaired by the Head of Faculty, and it confirms module marks, progression and achievement <span class="clause"><span class="sr-only">Regulations section </span>8.10.6</span> <span class="clause"><span class="sr-only">Regulations section </span>8.10.12</span>. Decisions are by majority with a casting vote for the Chair, and deliberations are strictly confidential <span class="clause"><span class="sr-only">Regulations section </span>8.10.10</span> <span class="clause"><span class="sr-only">Regulations section </span>8.10.17</span>.</p>
+
+        <h3>Exam Board pathway</h3>
+        <ol class="steps">
+          <li><strong>Internal Examiners grade</strong> using clear marking schemes <span class="clause"><span class="sr-only">Regulations section </span>8.10.4</span>.</li>
+          <li><strong>Marks and moderation evidence</strong> go to the Board.</li>
+          <li><strong>The Board confirms</strong> that processes followed Academic Council regulations, approves marks, considers whether mark ranges are appropriate and moderates where appropriate, and agrees re-assessment <span class="clause"><span class="sr-only">Regulations section </span>8.10.9</span>.</li>
+          <li><strong>The broadsheet</strong> is approved and signed <span class="clause"><span class="sr-only">Regulations section </span>8.10.18&ndash;8.10.19</span>.</li>
+          <li><strong>Results go</strong> to the Vice President for Academic Affairs, Teaching and Learning, then to Academic Council for ratification <span class="clause"><span class="sr-only">Regulations section </span>8.10.18</span>.</li>
+        </ol>
+
+        <div class="gate" data-gate></div>
+
+        <h3>Numbers and rules to know</h3>
+        <div class="tabs" data-tabs="rules">
+          <div class="tabs__list" role="tablist" aria-label="Numbers and rules to know">
+            <button class="tabs__btn is-active" data-tab="pass" role="tab" id="rulestab-pass" aria-controls="rulespanel-pass" aria-selected="true" tabindex="0" type="button">Pass, compensate, fail</button>
+            <button class="tabs__btn" data-tab="mitigate" role="tab" id="rulestab-mitigate" aria-controls="rulespanel-mitigate" aria-selected="false" tabindex="-1" type="button">Mitigating circumstances</button>
+            <button class="tabs__btn" data-tab="defer" role="tab" id="rulestab-defer" aria-controls="rulespanel-defer" aria-selected="false" tabindex="-1" type="button">Deferrals and repeats</button>
+          </div>
+          <div class="tabs__panel is-active" data-panel="pass" role="tabpanel" id="rulespanel-pass" aria-labelledby="rulestab-pass" tabindex="0">
+            <span class="tabs__level">Section <span class="clause">8.10.3</span></span>
+            <h3>Three bands</h3>
+            <div class="deflist">
+              <div class="deflist__row"><div class="deflist__term">40% or above</div><div class="deflist__desc">Pass.</div></div>
+              <div class="deflist__row"><div class="deflist__term">35% to under 40%</div><div class="deflist__desc">May be compensatable.</div></div>
+              <div class="deflist__row"><div class="deflist__term">Under 35%</div><div class="deflist__desc">An outright fail.</div></div>
+            </div>
+            <div class="tabs__example"><span>Compensation conditions</span>See <span class="clause"><span class="sr-only">Regulations section </span>9.2.4</span>.</div>
+          </div>
+          <div class="tabs__panel" data-panel="mitigate" role="tabpanel" id="rulespanel-mitigate" aria-labelledby="rulestab-mitigate" tabindex="0">
+            <span class="tabs__level">Section <span class="clause">8.8</span></span>
+            <h3>Marks may not be adjusted</h3>
+            <ul>
+              <li>If the Board accepts the circumstances, the student re-sits as if for the first time and the result is recorded as <strong>deferred</strong> <span class="clause"><span class="sr-only">Regulations section </span>8.8.3</span>.</li>
+              <li>Documentation goes to the Faculty office <strong>within five days</strong> of the examination <span class="clause"><span class="sr-only">Regulations section </span>8.8.4</span>.</li>
+              <li>Mitigation cannot form the basis of a formal appeal <span class="clause"><span class="sr-only">Regulations section </span>8.8.5</span>.</li>
+            </ul>
+          </div>
+          <div class="tabs__panel" data-panel="defer" role="tabpanel" id="rulespanel-defer" aria-labelledby="rulestab-defer" tabindex="0">
+            <span class="tabs__level">Sections <span class="clause">8.10.13&ndash;8.10.14</span> and <span class="clause">8.11.2</span></span>
+            <h3>Deferrals and repeat attempts</h3>
+            <p>Board deferrals are covered in <span class="clause"><span class="sr-only">Regulations section </span>8.10.13&ndash;8.10.14</span>. Students normally have <strong>three repeat opportunities</strong> before needing written permission <span class="clause"><span class="sr-only">Regulations section </span>8.11.2</span>.</p>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <h2>What would you do?</h2>
+        <div class="widget scenario" data-scenario="exam">
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-scale"></use></svg> Scenario &middot; at the Exam Board</div>
+          <p class="scenario__setup">You are at an Exam Board. A Level 8 module shows a mean mark fifteen points higher than the programme average. The module coordinator says the cohort was exceptionally strong. What do you do?</p>
+          <div class="scenario__opts">
+            <button class="scenario__opt" type="button" data-verdict="poor" data-feedback="This relies on assertion. A strong cohort might explain the gap, but the Board has not seen anything that shows it.">
+              <span class="scenario__opt-k" aria-hidden="true">A</span><span>Accept the explanation</span></button>
+            <button class="scenario__opt" type="button" data-verdict="good" data-feedback="This is the evidence-led response. You neither assume something is wrong nor accept the explanation without evidence: you ask for the marking distribution, the moderation records and the external examiner's comments.">
+              <span class="scenario__opt-k" aria-hidden="true">B</span><span>Ask for the marking distribution, moderation records and the external examiner's comments</span></button>
+            <button class="scenario__opt" type="button" data-verdict="poor" data-feedback="This changes marks before the facts are established. The Board may moderate where appropriate section 8.10.9, but only after considering mark standards and evidence.">
+              <span class="scenario__opt-k" aria-hidden="true">C</span><span>Propose scaling all marks down</span></button>
+          </div>
+          <div class="scenario__fb" role="status"></div>
+        </div>
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>Anomalies warrant inquiry rather than assumptions.</strong> Notice what the best option has in common with good practice in any profession: you do not assume anything is wrong, and you do not accept explanations without evidence. You ask for the evidence.</p>
+          </div>
+        </div>
+        <p>The Regulations back this up. A module whose grade distribution is persistently and significantly inconsistent with others warrants investigation, and systematic anomalies are reported to the Exam Board and notified to Academic Council <span class="clause"><span class="sr-only">Regulations section </span>8.10.16</span>. External Examiners are also expected to contribute to the Board's view on grade distributions <span class="clause"><span class="sr-only">Regulations section </span>8.10.15</span>.</p>
+
+        <h3>Practical tips for taking part</h3>
+        <ol class="steps">
+          <li><strong>Prepare.</strong> Read the papers before the meeting and flag questions in advance.</li>
+          <li><strong>Speak up</strong> when something does not make sense. New staff sometimes assume that everyone else understands and stay silent, but a fresh perspective is often exactly what a board needs.</li>
+          <li><strong>Make sure your contribution is recorded in the minutes,</strong> because the minutes are your evidence trail.</li>
+          <li><strong>Separate the person from the data.</strong> Boards work best when discussion focuses on patterns and evidence rather than on individual blame.</li>
+        </ol>
+
+        <div class="reflect" data-reflect="s2">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your experience &middot; not scored</div>
+          <p class="reflect__prompt" id="reflect-s2">What is one question from your own professional experience, for example about risk, evidence or consistency, that you could usefully bring to a Programme Board?</p>
+          <textarea aria-labelledby="reflect-s2" placeholder="Jot your thoughts here &mdash; saved only on this device&hellip;"></textarea>
+          <div class="reflect__foot">
+            <span class="reflect__note">Just for your own thinking.</span>
+            <button class="reflect__save" type="button">Save note</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">Why QA matters</span></button>
+          <button class="btn btn--primary" data-next><span class="long">The External Examiner</span> <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+      <!-- =================================================================
+           SECTION 4 — THE ROLE OF THE EXTERNAL EXAMINER  (data-lesson="3")
+      ================================================================== -->
+      <section class="lesson" data-lesson="3" data-accent="1">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 4 of 7</span>
+            <h1 tabindex="-1">The role of the external examiner</h1>
+            <p class="hero__meta">~5 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <p class="lead">External examining is one of the longest-standing mechanisms in Irish and UK higher education. An external examiner is an <strong>independent, appropriately qualified academic or professional from outside your institution</strong>, appointed to give an impartial view on whether standards are appropriate and whether assessment is fair and consistently applied.</p>
+        <p>QQI's guidelines on assessment and standards expect providers to use external expertise in this way, and institutional regulations set out the details.</p>
+        <p>An external examiner usually reviews draft assessment briefs and exam papers, samples learners' work across the mark range, and attends or contributes to the Exam Board. They then write a report, which is shared with the Programme Board and often with learners, and which requires a formal response from the programme team.</p>
+        <p>In SETU, External Examiners are appointed by the University, are independent of it, and are involved at relevant stages of assessment <span class="clause"><span class="sr-only">Regulations section </span>8.3.15</span>. They submit a standardised report on the curriculum, the assessment, the standard of student work and the fairness and consistency of assessment practice <span class="clause"><span class="sr-only">Regulations section </span>7.8.2.2</span>. The Programme Board considers each report before a response goes back on every recommendation <span class="clause"><span class="sr-only">Regulations section </span>7.8.2.4</span>.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Your assessment and the External Examiner</h2>
+        <ol class="steps">
+          <li><strong>Internal Examiners prepare</strong> assessments and marking schemes and consult the External Examiner on drafting <span class="clause"><span class="sr-only">Regulations section </span>8.2.2(i)</span> <span class="clause"><span class="sr-only">Regulations section </span>8.2.3(i)</span>.</li>
+          <li><strong>All continuous assessment briefs</strong> and marking schemes are seen by External Examiners <span class="clause"><span class="sr-only">Regulations section </span>8.2.2(iii)</span>.</li>
+          <li><strong>Marks and evidence</strong> are made available to them <span class="clause"><span class="sr-only">Regulations section </span>8.2.2(iv)</span>.</li>
+          <li><strong>They contribute</strong> at the Exam Board <span class="clause"><span class="sr-only">Regulations section </span>8.10.15</span>.</li>
+          <li><strong>Their report feeds</strong> all quality assurance procedures, and action is taken and reported where recommendations are made <span class="clause"><span class="sr-only">Regulations section </span>7.8.2.3</span>.</li>
+        </ol>
+
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-file"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>Detailed duties and timelines.</strong> Use the supporting document for your campus system: <em>External Examining (Interim based on old ADF System)</em>, Supporting Document 4, or <em>External Examining (Interim based on old SAM System)</em>, Supporting Document 5 <span class="clause"><span class="sr-only">Regulations section </span>8.10.22&ndash;8.10.23</span>. Programme Boards can also recommend External Examiners for consideration <span class="clause"><span class="sr-only">Regulations section </span>7.4.7</span>.</p>
+          </div>
+        </div>
+        <p class="placeholder-note">[Add links to Supporting Documents 4 and 5 before publishing.]</p>
+
+        <div class="gate" data-gate></div>
+
+        <div class="tabs" data-tabs="examiner">
+          <div class="tabs__list" role="tablist" aria-label="What external examiners do">
+            <button class="tabs__btn is-active" data-tab="do" role="tab" id="examinertab-do" aria-controls="examinerpanel-do" aria-selected="true" tabindex="0" type="button">What externals do</button>
+            <button class="tabs__btn" data-tab="dont" role="tab" id="examinertab-dont" aria-controls="examinerpanel-dont" aria-selected="false" tabindex="-1" type="button">What externals don't do</button>
+            <button class="tabs__btn" data-tab="need" role="tab" id="examinertab-need" aria-controls="examinerpanel-need" aria-selected="false" tabindex="-1" type="button">What they need from you</button>
+          </div>
+          <div class="tabs__panel is-active" data-panel="do" role="tabpanel" id="examinerpanel-do" aria-labelledby="examinertab-do" tabindex="0">
+            <h3>What externals do</h3>
+            <p>Comment on <strong>standards</strong>, <strong>comparability</strong> with similar programmes, <strong>assessment design</strong>, and <strong>consistency of marking</strong>.</p>
+          </div>
+          <div class="tabs__panel" data-panel="dont" role="tabpanel" id="examinerpanel-dont" aria-labelledby="examinertab-dont" tabindex="0">
+            <h3>What externals don't do</h3>
+            <p>Remark individual scripts, reassign marks unilaterally, or act as a replacement for internal moderation.</p>
+          </div>
+          <div class="tabs__panel" data-panel="need" role="tabpanel" id="examinerpanel-need" aria-labelledby="examinertab-need" tabindex="0">
+            <h3>What they need from you</h3>
+            <p>Clear materials, representative samples, timely access, open responses.</p>
+          </div>
+        </div>
+
+        <h2>A critical friend, not an inspector</h2>
+        <p>The most common misunderstanding is to treat the external examiner as an inspector to be impressed. A more productive view treats them as a <strong>critical friend</strong>. They have comparative knowledge of other institutions and a fresh pair of eyes, and that is valuable.</p>
+        <p>At Level 9, particularly, external examiners may carry real weight in judging the standard of a dissertation or research project, and at Level 7 they may offer helpful perspectives on whether practical competence is being assessed to a professionally credible standard.</p>
+
+        <h3>How should you work with them?</h3>
+        <ul>
+          <li><strong>Be organised and transparent.</strong> Provide what they need in good time, including marking criteria and examples of how they were applied.</li>
+          <li><strong>Respond to every point in the report,</strong> even where you disagree, and explain your reasoning.</li>
+          <li><strong>Then use the report:</strong> the best programme teams treat it as a free source of enhancement ideas.</li>
+        </ul>
+        <p>The Regulations set the same expectation. Internal Examiners must consider every suggestion, criticism, deletion, addition and amendment an External Examiner proposes, and make sure the External Examiner has signed or otherwise confirmed the marking sheets <span class="clause"><span class="sr-only">Regulations section </span>8.2.3(ii)</span> <span class="clause"><span class="sr-only">Regulations section </span>8.2.3(v)</span>.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Practise a response</h2>
+        <p>Here are three invented comments from an external examiner. Select each card to see a model response: it acknowledges the point, proposes an action, names an owner and sets a date.</p>
+
+        <div class="flipgrid flipgrid--3" data-flip="examiner" role="group" aria-label="Three invented external examiner comments, each with a model response">
+          <button class="flip" type="button" aria-expanded="false">
+            <span class="flip__front">&ldquo;Feedback on some scripts was brief and did not clearly show how marks were reached.&rdquo;</span>
+            <span class="flip__hint">Select to see a model response</span>
+            <span class="flip__back" hidden><strong>Acknowledge.</strong> We agree: on some scripts the feedback did not show how the mark was reached.<br><strong>Action.</strong> Introduce a short feedback template that links each mark to the criteria, and re-mark a sample of five scripts to check.<br><strong>Owner.</strong> Module coordinator.<br><strong>Date.</strong> Template in use from the next assessment; sample checked before the next Programme Board.</span>
+          </button>
+          <button class="flip" type="button" aria-expanded="false">
+            <span class="flip__front">&ldquo;The marking scheme for the project appears to have been applied differently by the two markers.&rdquo;</span>
+            <span class="flip__hint">Select to see a model response</span>
+            <span class="flip__back" hidden><strong>Acknowledge.</strong> Thank you. Our moderation notes show the same gap.<br><strong>Action.</strong> Hold a calibration session on three benchmark scripts before marking begins.<br><strong>Owner.</strong> Programme Leader.<br><strong>Date.</strong> Before the next marking period, with the benchmark scripts kept on file.</span>
+          </button>
+          <button class="flip" type="button" aria-expanded="false">
+            <span class="flip__front">&ldquo;Two of the assessment briefs ask for more than the credit value could reasonably support.&rdquo;</span>
+            <span class="flip__hint">Select to see a model response</span>
+            <span class="flip__back" hidden><strong>Acknowledge.</strong> We accept this; the briefs were written separately.<br><strong>Action.</strong> Review both briefs against the assessment schedule and the credit value, and reduce their scope.<br><strong>Owner.</strong> The two module coordinators, reviewed by the Programme Board.<br><strong>Date.</strong> Revised briefs published before the start of next semester.</span>
+          </button>
+        </div>
+
+        <div class="reflect" data-reflect="s3">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your experience &middot; not scored</div>
+          <p class="reflect__prompt" id="reflect-s3">Have you ever been on the receiving end of external review, in academic or professional life? What response to the feedback did you find most constructive?</p>
+          <textarea aria-labelledby="reflect-s3" placeholder="Jot your thoughts here &mdash; saved only on this device&hellip;"></textarea>
+          <div class="reflect__foot">
+            <span class="reflect__note">Just for your own thinking.</span>
+            <button class="reflect__save" type="button">Save note</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">Programme &amp; Exam Boards</span></button>
+          <button class="btn btn--primary" data-next><span class="long">Academic judgement</span> <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           SECTION 5 — ACADEMIC JUDGEMENT AND DECISION-MAKING  (data-lesson="4")
+      ================================================================== -->
+      <section class="lesson" data-lesson="4" data-accent="2">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 5 of 7</span>
+            <h1 tabindex="-1">Academic judgement and decision-making</h1>
+            <p class="hero__meta">~5 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <div class="statement"><span class="u-watermark" aria-hidden="true"></span><span>This section is the heart of the session. Every mark, grade and progression decision rests on academic judgement.</span></div>
+
+        <p>We like to think of marking as objective, but the research tells a more nuanced story. D. Royce Sadler (2010), whose work on standards and assessment is widely cited, has argued that academic judgement relies partly on <strong>tacit knowledge</strong> built through experience, and that explicit criteria alone cannot fully capture what an expert marker recognises as quality. Sue Bloxham (2007) and colleagues have shown that markers can interpret the same criteria differently and rely on their own internalised standards.</p>
+        <p>This is not a failure. It is a feature of expert judgement, but it means we must work deliberately to make judgement <strong>reliable, transparent and defensible</strong>.</p>
+        <p>The National Forum's work on assessment, including its guidance on the principles of assessment and its emphasis on assessment for, as and of learning, reminds us that sound judgement starts with sound assessment design. If the task and the criteria are well aligned with the learning outcomes, judgement becomes more straightforward.</p>
+        <p>SETU's Regulations set the ground rules for judgement. Assessment must measure achievement of learning outcomes, and every module learning outcome must be assessed summatively <span class="clause"><span class="sr-only">Regulations section </span>8.3.11</span> <span class="clause"><span class="sr-only">Regulations section </span>8.3.13</span>. Criteria and grading standards must reach students before the assessment, and grading is done by the Internal Examiner using clear, consistent and transparent marking schemes <span class="clause"><span class="sr-only">Regulations section </span>8.3.10</span> <span class="clause"><span class="sr-only">Regulations section </span>8.10.4</span>.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Judgement in the Regulations: before, during, after</h2>
+        <div class="accordion" data-accordion="judgement">
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="jacc-body-1" id="jacc-head-1">
+              <span class="acc__n" aria-hidden="true">1</span><span class="acc__q">Before</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="jacc-body-1" role="region" aria-labelledby="jacc-head-1"><div class="acc__inner">
+              <ul>
+                <li>Criteria and marking scheme shared with students <span class="clause"><span class="sr-only">Regulations section </span>8.3.10</span> <span class="clause"><span class="sr-only">Regulations section </span>8.3.12</span>.</li>
+                <li>Assessment brief with due date, submission method and confirmation of submission <span class="clause"><span class="sr-only">Regulations section </span>8.7.2</span>.</li>
+              </ul>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="jacc-body-2" id="jacc-head-2">
+              <span class="acc__n" aria-hidden="true">2</span><span class="acc__q">During</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="jacc-body-2" role="region" aria-labelledby="jacc-head-2"><div class="acc__inner">
+              <ul>
+                <li>Marking scheme applied consistently <span class="clause"><span class="sr-only">Regulations section </span>8.10.4</span>.</li>
+                <li>For group work, individual contribution assessed, with a viva voce available to verify it <span class="clause"><span class="sr-only">Regulations section </span>8.3.17</span>.</li>
+                <li>Academic integrity concerns handled under the Student Academic Misconduct Policy and Disciplinary Procedure <span class="clause"><span class="sr-only">Regulations section </span>8.9.4</span> <span class="clause"><span class="sr-only">Regulations section </span>8.9.8</span>. Poor academic practice is not an academic offence <span class="clause"><span class="sr-only">Regulations section </span>8.9.9</span>.</li>
+              </ul>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="jacc-body-3" id="jacc-head-3">
+              <span class="acc__n" aria-hidden="true">3</span><span class="acc__q">After</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="jacc-body-3" role="region" aria-labelledby="jacc-head-3"><div class="acc__inner">
+              <ul>
+                <li>Timely feedback that supports improvement <span class="clause"><span class="sr-only">Regulations section </span>8.13.1</span>.</li>
+                <li>Students may apply to view marked summative work after results issue <span class="clause"><span class="sr-only">Regulations section </span>8.13.3</span>.</li>
+                <li>Academic appeals follow the university's process <span class="clause"><span class="sr-only">Regulations section </span>8.14</span>.</li>
+              </ul>
+            </div></div>
+          </div>
+        </div>
+
+        <h3>Four habits of defensible academic judgement</h3>
+        <ol class="steps">
+          <li><strong>Anchor</strong> to learning outcomes and the NFQ level indicators.</li>
+          <li><strong>Use the criteria and rubric</strong> consistently.</li>
+          <li><strong>Calibrate with colleagues,</strong> through moderation, second marking and benchmark samples.</li>
+          <li><strong>Record your reasoning</strong> so another person could follow it.</li>
+        </ol>
+
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>Three questions to ask when you award a mark.</strong> What evidence in the learner's work led me to this mark? How does that evidence map to the learning outcomes and the criteria? And would a colleague, given the same work and criteria, reach a similar conclusion? If you can answer yes to all three, you can stand over your decision.</p>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Now consider the level</h2>
+        <p>A Level 8 assignment expects critical analysis, so a well-organised description of the literature, however polished, should not earn top marks. At Level 9, you should look for synthesis, originality or a clearly argued contribution. At Level 7, you are more likely to be assessing accurate application of established methods.</p>
+        <p>The same assessment words, such as &ldquo;analyse&rdquo; or &ldquo;evaluate&rdquo;, can mean very different things at different levels, which is why the NFQ level indicators matter.</p>
+
+        <h3>How levels show up in classification <span class="clause"><span class="sr-only">Regulations section </span>10.4.7</span></h3>
+        <div class="rubric-wrap" role="region" aria-label="Classification bands by award and NFQ level" tabindex="0">
+          <table class="rubric">
+            <caption class="sr-only">Classification by award and NFQ level, with the overall weighted average needed in the award stage</caption>
+            <thead>
+              <tr><th scope="col">Award (NFQ level)</th><th scope="col">Classification</th><th scope="col">Overall weighted average in the award stage</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Higher Certificate (6) / Bachelor Degree (7)</th><td>Merit 2 / Merit 1 / Distinction</td><td>50% / 60% / 70% or above</td></tr>
+              <tr><th scope="row">Honours Bachelor Degree (8) / Higher Diploma (8)</th><td>Second Class Honours Grade 2 / Grade 1 / First Class Honours</td><td>50% / 60% / 70% or above</td></tr>
+              <tr><th scope="row">Postgraduate Diploma (9) / Master's Degree (9)</th><td>Second Class Honours Grade 2 / Grade 1 / First Class Honours</td><td>50% / 60% / 70% or above</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The percentage bands are the same at every level, so the difference lies in what the marks represent. A 62% at Level 7 and a 62% at Level 9 should reflect different demands, which is why the level indicators matter. Classification is criterion referenced, is based on the average at first attempt, and is not possible if a module cannot be graded <span class="clause"><span class="sr-only">Regulations section </span>10.3.1</span> <span class="clause"><span class="sr-only">Regulations section </span>10.4.3</span> <span class="clause"><span class="sr-only">Regulations section </span>10.3.4</span>.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Marking practice</h2>
+        <p>Here is a short, anonymised Level 8 paragraph. Choose what you are marking, then select the sentences that show it. Reveal an expert's version when you are ready.</p>
+
+        <div class="widget highlight" data-highlight="marking">
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Marking practice &middot; Level 8 paragraph</div>
+          <div class="highlight__tools" role="group" aria-label="What are you marking for? Choose, then select sentences.">
+            <button class="hl-tool" type="button" data-tool="analysis">Critical analysis</button>
+            <button class="hl-tool" type="button" data-tool="description">Description</button>
+          </div>
+          <p class="highlight__text"><button class="seg" type="button" data-kind="description" data-why="It reports what the literature covers and makes no judgement.">Several studies examine how organisations adopted remote working after 2020.</button> <button class="seg" type="button" data-kind="description" data-why="It states, accurately, what one study found, but does not weigh it.">Smith (2021) surveyed 400 firms and found that reported productivity rose in most of them.</button> <button class="seg" type="button" data-kind="analysis" data-why="It questions the quality of the evidence and says what that does to the finding.">However, the data rest on managers' self-reports, which may overstate gains, so the finding is weaker than it first appears.</button> <button class="seg" type="button" data-kind="description" data-why="A finding reported without comment.">Jones (2022) reports that staff retention improved.</button> <button class="seg" type="button" data-kind="analysis" data-why="It sets two studies against each other and explains why they cannot simply be combined.">This sits uneasily with Smith's results, because Jones studied only large firms where flexibility was already common, which limits how far the two studies can be compared.</button> <button class="seg" type="button" data-kind="description" data-why="It names a model; it does not evaluate it.">Other authors describe hybrid models in which staff attend on fixed days.</button> <button class="seg" type="button" data-kind="analysis" data-why="It reaches a justified position and states a limit on the evidence.">On balance, the evidence supports cautious adoption in knowledge-intensive roles, although no study separates the effect of remote working from wider changes in labour markets.</button></p>
+          <div class="highlight__actions">
+            <button class="btn btn--primary btn--sm" type="button" data-hl-reveal>Reveal the expert's annotation</button>
+            <button class="btn btn--ghost btn--sm" type="button" data-hl-reset>Reset</button>
+            <span class="kc__score" data-hl-score role="status"></span>
+          </div>
+          <div class="highlight__expert" data-hl-expert hidden>
+            <h3>The expert's annotation</h3>
+            <ol class="highlight__list" data-hl-list></ol>
+            <p><strong>Linking it to the grade.</strong> At Level 8 the expectation is critical understanding and independent judgement, so a paragraph that is accurate, well-organised description should not earn top marks, however polished. Here three of the seven sentences do the analytical work. They are the evidence a marker could point to against the criteria, and a second marker should find the same three.</p>
+          </div>
+        </div>
+
+        <div class="kc" data-kc="kc1" data-type="single">
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Knowledge check</div>
+          <p class="kc__q" id="kcq-kc1">Which of the following best strengthens the defensibility of a marking decision?</p>
+          <div class="kc__options" role="group" aria-labelledby="kcq-kc1">
+            <button class="opt" data-opt="A"><span class="opt__mark"><span class="opt__letter">A</span></span> Marking quickly to avoid fatigue</button>
+            <button class="opt" data-opt="B" data-correct><span class="opt__mark"><span class="opt__letter">B</span></span> Recording the evidence behind the mark against stated criteria</button>
+            <button class="opt" data-opt="C"><span class="opt__mark"><span class="opt__letter">C</span></span> Matching the mark distribution of the previous year</button>
+            <button class="opt" data-opt="D"><span class="opt__mark"><span class="opt__letter">D</span></span> Giving the benefit of the doubt to learners who are struggling</button>
+          </div>
+          <div class="kc__feedback" role="status" aria-live="polite"
+               data-good="Recording the evidence against stated criteria means another person could follow your reasoning. Notice options C and D: both feel reasonable, but both can introduce bias. Good judgement is evidence-based, not outcome-driven."
+               data-bad="Notice options C and D: both feel reasonable, but both can introduce bias. Good judgement is evidence-based, not outcome-driven, so look for the option that records the evidence against stated criteria."></div>
+          <div class="kc__footer"><button class="kc__retry" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-rotate"></use></svg> Try again</button></div>
+        </div>
+
+        <div class="callout callout--tip">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>An emerging challenge: generative AI.</strong> It has prompted the sector, including QQI, the National Forum and SETU, to rethink assessment design and academic integrity. Judgement now includes asking whether an assessment still measures what it claims to measure, and whether the process, not only the product, is visible. If you have industry experience, think about how professionals in your field are now using these tools, and what that implies for authentic assessment. For more, see <em>Assessment in the age of AI</em> in Unit 4, <em>Assessment that Works</em>.</p>
+          </div>
+        </div>
+
+        <div class="reflect" data-reflect="s4">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your experience &middot; not scored</div>
+          <p class="reflect__prompt" id="reflect-s4">Describe one assessment you have designed or experienced. How confident are you that a different marker would reach the same grade? What would increase that confidence?</p>
+          <textarea aria-labelledby="reflect-s4" placeholder="Jot your thoughts here &mdash; saved only on this device&hellip;"></textarea>
+          <div class="reflect__foot">
+            <span class="reflect__note">Just for your own thinking.</span>
+            <button class="reflect__save" type="button">Save note</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">The External Examiner</span></button>
+          <button class="btn btn--primary" data-next><span class="long">Common QA pitfalls</span> <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+      <!-- =================================================================
+           SECTION 6 — COMMON QA PITFALLS  (data-lesson="5")
+      ================================================================== -->
+      <section class="lesson" data-lesson="5" data-accent="3">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 6 of 7</span>
+            <h1 tabindex="-1">Common QA pitfalls and how to avoid them</h1>
+            <p class="hero__meta">~4 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <p class="lead">Let's finish the content with some practical wisdom: the pitfalls that catch even experienced staff.</p>
+
+        <div class="accordion" data-accordion="pitfalls">
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="pacc-body-1" id="pacc-head-1">
+              <span class="acc__n" aria-hidden="true">1</span><span class="acc__q">Weak alignment</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="pacc-body-1" role="region" aria-labelledby="pacc-head-1"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Learning outcomes, activities and assessment do not match.</p>
+              <p><strong>How to avoid it.</strong> Map every outcome to an assessment and a teaching activity, and look for gaps.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="pacc-body-2" id="pacc-head-2">
+              <span class="acc__n" aria-hidden="true">2</span><span class="acc__q">Vague or unused criteria</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="pacc-body-2" role="region" aria-labelledby="pacc-head-2"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Criteria are broad, or markers do not apply them consistently.</p>
+              <p><strong>How to avoid it.</strong> Use clear rubrics with level-appropriate descriptors, and calibrate with colleagues before marking.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="pacc-body-3" id="pacc-head-3">
+              <span class="acc__n" aria-hidden="true">3</span><span class="acc__q">Poor documentation</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="pacc-body-3" role="region" aria-labelledby="pacc-head-3"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Decisions are made but not recorded, so they cannot be justified later.</p>
+              <p><strong>How to avoid it.</strong> Keep brief, dated records of moderation, rationales and board decisions.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="pacc-body-4" id="pacc-head-4">
+              <span class="acc__n" aria-hidden="true">4</span><span class="acc__q">Not closing the loop</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="pacc-body-4" role="region" aria-labelledby="pacc-head-4"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Feedback from learners and external examiners is collected but not acted upon.</p>
+              <p><strong>How to avoid it.</strong> Keep an action log and report back on outcomes.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="pacc-body-5" id="pacc-head-5">
+              <span class="acc__n" aria-hidden="true">5</span><span class="acc__q">Compliance without enhancement</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="pacc-body-5" role="region" aria-labelledby="pacc-head-5"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Teams complete forms but never discuss what they reveal.</p>
+              <p><strong>How to avoid it.</strong> Use QA data to ask real questions about teaching and learning, in the spirit of the National Forum's enhancement-led approach.</p>
+            </div></div>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Two further traps</h2>
+        <p><strong>Inconsistency between levels.</strong> Applying Level 8 expectations to a Level 7 cohort, or vice versa, creates unfair outcomes.</p>
+        <p><strong>Isolation.</strong> Staff who make decisions alone, without moderation or peer conversation, are much more likely to drift from the standard without noticing it.</p>
+
+        <h2>Four more, from the 2026-27 Regulations</h2>
+        <div class="accordion" data-accordion="morepitfalls">
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="qacc-body-1" id="qacc-head-1">
+              <span class="acc__n" aria-hidden="true">1</span><span class="acc__q">Over-assessment</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="qacc-body-1" role="region" aria-labelledby="qacc-head-1"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Too many or badly timed assessments overload learners.</p>
+              <p><strong>How to avoid it.</strong> Use the 5-credit norms of a 2-hour exam or a 2,000&ndash;4,000 word assignment, and review volume and timing against an assessment schedule <span class="clause"><span class="sr-only">Regulations section </span>8.3.6</span> <span class="clause"><span class="sr-only">Regulations section </span>8.3.7</span> <span class="clause"><span class="sr-only">Regulations section </span>8.4.3</span>.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="qacc-body-2" id="qacc-head-2">
+              <span class="acc__n" aria-hidden="true">2</span><span class="acc__q">Mishandling mitigating circumstances</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="qacc-body-2" role="region" aria-labelledby="qacc-head-2"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Marks are adjusted informally, or documents arrive late.</p>
+              <p><strong>How to avoid it.</strong> Marks cannot be adjusted. Follow the deferral and re-sit route and the five-day documentation rule <span class="clause"><span class="sr-only">Regulations section </span>8.8.3</span> <span class="clause"><span class="sr-only">Regulations section </span>8.8.4</span>.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="qacc-body-3" id="qacc-head-3">
+              <span class="acc__n" aria-hidden="true">3</span><span class="acc__q">Breaching confidentiality or conflicts of interest</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="qacc-body-3" role="region" aria-labelledby="qacc-head-3"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> Board decisions are discussed outside the Board, or conflicts go undeclared.</p>
+              <p><strong>How to avoid it.</strong> Treat deliberations as strictly confidential and declare conflicts of interest <span class="clause"><span class="sr-only">Regulations section </span>8.10.17</span> <span class="clause"><span class="sr-only">Regulations section </span>7.4.9</span>.</p>
+            </div></div>
+          </div>
+          <div class="acc">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="qacc-body-4" id="qacc-head-4">
+              <span class="acc__n" aria-hidden="true">4</span><span class="acc__q">Using the wrong supporting documents</span>
+              <span class="acc__chev" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
+            </button>
+            <div class="acc__body" id="qacc-body-4" role="region" aria-labelledby="qacc-head-4"><div class="acc__inner">
+              <p><strong>The pitfall.</strong> ADF and SAM documents differ for exam rules, external examining and appeals.</p>
+              <p><strong>How to avoid it.</strong> Check which system your programme sits under (section <span class="clause">3</span>).</p>
+            </div></div>
+          </div>
+        </div>
+
+        <div class="gate" data-gate></div>
+
+        <div class="match" data-match="pitfalls">
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg> Scenario check &middot; Which pitfall is it?</div>
+          <p style="color:var(--ink-soft)">Match each short scenario to the most relevant pitfall &mdash; drag it, or select a scenario and then choose a box. Some pitfalls won't be used.</p>
+          <div class="match__grid">
+            <div>
+              <div class="match__col-title">Scenarios</div>
+              <div class="tokens" id="pitTokens">
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="p1" data-level="loop">The external examiner raised the same concern two years running</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="p2" data-level="criteria">Marking criteria were published but never discussed with learners</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="p3" data-level="mitigate">A student's mark was raised by five per cent after a family bereavement</div>
+                <div class="token" draggable="true" role="button" tabindex="0" data-token="p4" data-level="confidential">A board member described a student's result to colleagues in the staff room</div>
+              </div>
+            </div>
+            <div>
+              <div class="match__col-title">Pitfall</div>
+              <div class="drops">
+                <div class="drop" data-accept="align"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Weak alignment">Weak alignment</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="criteria"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Vague or unused criteria">Vague or unused criteria</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="docs"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Poor documentation">Poor documentation</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="loop"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Not closing the loop">Not closing the loop</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="mitigate"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Mishandling mitigating circumstances">Mishandling mitigating circumstances</button><span class="drop__slot"></span></div>
+                <div class="drop" data-accept="confidential"><button class="drop__target" type="button" aria-label="Place the selected scenario in: Breaching confidentiality or conflicts of interest">Breaching confidentiality or conflicts of interest</button><span class="drop__slot"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="match__actions">
+            <button class="btn btn--primary btn--sm" data-check>Check my answers</button>
+            <button class="btn btn--ghost btn--sm" data-reset>Reset</button>
+            <span class="kc__score" data-matchscore role="status"></span>
+          </div>
+          <div class="match__why" data-matchreveal hidden>
+            <h3>Why each one fits</h3>
+            <dl class="why">
+              <div><dt>The external examiner raised the same concern two years running</dt><dd><strong>Not closing the loop.</strong> The feedback was received but not acted on and reported back. An action log with owners is the remedy.</dd></div>
+              <div><dt>Marking criteria were published but never discussed with learners</dt><dd><strong>Vague or unused criteria.</strong> Criteria that learners can't interpret, and that nobody talks through, are not doing their job. Share them, talk them through, and calibrate before marking.</dd></div>
+              <div><dt>A student's mark was raised by five per cent after a family bereavement</dt><dd><strong>Mishandling mitigating circumstances.</strong> Marks cannot be adjusted <span class="clause"><span class="sr-only">Regulations section </span>8.8.3</span>. The route is deferral and re-sit, with documents in within five days <span class="clause"><span class="sr-only">Regulations section </span>8.8.4</span>.</dd></div>
+              <div><dt>A board member described a student's result to colleagues in the staff room</dt><dd><strong>Breaching confidentiality.</strong> Deliberations are strictly confidential <span class="clause"><span class="sr-only">Regulations section </span>8.10.17</span>.</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">Academic judgement</span></button>
+          <button class="btn btn--primary" data-next><span class="long">Summary</span> <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"></use></svg></button>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           SECTION 7 — SUMMARY AND REFLECTIVE ACTIVITY  (data-lesson="6")
+      ================================================================== -->
+      <section class="lesson" data-lesson="6" data-accent="1">
+      <header class="hero">
+          <span class="hero__crest crest-grad" aria-hidden="true"></span>
+          <div class="hero__panel u-panel grad-mesh">
+            <span class="eyebrow" data-hero-eyebrow><span class="u-mark" aria-hidden="true"></span> Section 7 of 7</span>
+            <h1 tabindex="-1">Summary and reflective activity</h1>
+            <p class="hero__meta">~2 min read</p>
+          </div>
+          <div class="hero__side" data-hero-side></div>
+        </header>
+
+        <div class="statement"><span class="u-watermark" aria-hidden="true"></span><span>Quality assurance in Irish higher education is a shared responsibility within a framework set by legislation, QQI guidelines, the ESG, and SETU &mdash; and it exists to protect standards and to enhance learning.</span></div>
+
+        <div class="deflist">
+          <div class="deflist__row"><div class="deflist__term">Shared responsibility</div><div class="deflist__desc">A framework set by legislation, QQI guidelines, the ESG and SETU, which exists to protect standards <em>and</em> to enhance learning.</div></div>
+          <div class="deflist__row"><div class="deflist__term">Two kinds of board</div><div class="deflist__desc">Programme Boards look forward at the programme. Exam Boards look carefully at outcomes for individual learners.</div></div>
+          <div class="deflist__row"><div class="deflist__term">Critical friends</div><div class="deflist__desc">External examiners add an independent, comparative perspective.</div></div>
+          <div class="deflist__row"><div class="deflist__term">Defensible judgement</div><div class="deflist__desc">Academic judgement must always be evidence-based, calibrated with colleagues, and documented so that you can stand over it.</div></div>
+        </div>
+
+        <div class="callout callout--why">
+          <div class="callout__icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book-open"></use></svg></div>
+          <div class="callout__body">
+            <p><strong>In SETU terms, know three parts of the 2026-27 Regulations well:</strong> sections <span class="clause">7.4</span> and <span class="clause">7.8</span> for Programme Boards and external examiner reporting, section <span class="clause">8</span> for assessment and Exam Boards, and section <span class="clause">10</span> for classification of awards.</p>
+          </div>
+        </div>
+
+        <p>Remember too that your experience outside academia is an asset. The habits of <strong>audit, evidence, peer review and professional accountability</strong> that you have developed are exactly what good QA depends on.</p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Your action</h2>
+        <p>At the start I asked you to hold on to a thought. Here it is again.</p>
+        <div class="echo" data-echo="s0" data-empty="You didn&rsquo;t write anything at the start &mdash; that&rsquo;s fine. Think of a time someone checked your work against a standard, and what made it feel fair or unfair.">
+          <span class="echo__k">What you wrote at the start</span>
+          <p class="echo__text"></p>
+        </div>
+        <p>Now choose <strong>one action you will take in the next month</strong> to strengthen your engagement with academic governance. For example: read your programme's most recent external examiner report; prepare a question for the next board using sections <span class="clause">7.4</span>, <span class="clause">7.8</span> and <span class="clause">8.10</span> of the 2026-27 Regulations; or review one assessment for alignment with the NFQ level.</p>
+
+        <div class="reflect" data-reflect="act1">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your action &middot; 1 of 3 &middot; not submitted</div>
+          <p class="reflect__prompt" id="reflect-act1"><strong>My action:</strong> the one thing I will do in the next month.</p>
+          <textarea aria-labelledby="reflect-act1" placeholder="Be specific &mdash; saved only on this device&hellip;" style="min-height:90px"></textarea>
+          <div class="reflect__foot"><span class="reflect__note">For your own planning.</span><button class="reflect__save" type="button">Save note</button></div>
+        </div>
+        <div class="reflect" data-reflect="act2">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your action &middot; 2 of 3 &middot; not submitted</div>
+          <p class="reflect__prompt" id="reflect-act2"><strong>The evidence I will gather:</strong> what I will look at, and what it will tell me.</p>
+          <textarea aria-labelledby="reflect-act2" placeholder="A report, a record, a data set&hellip;" style="min-height:90px"></textarea>
+          <div class="reflect__foot"><span class="reflect__note">For your own planning.</span><button class="reflect__save" type="button">Save note</button></div>
+        </div>
+        <div class="reflect" data-reflect="act3">
+          <div class="reflect__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pen"></use></svg> Your action &middot; 3 of 3 &middot; not submitted</div>
+          <p class="reflect__prompt" id="reflect-act3"><strong>Who I will discuss it with:</strong> a colleague, a mentor, my Programme Leader.</p>
+          <textarea aria-labelledby="reflect-act3" placeholder="A name, and when&hellip;" style="min-height:90px"></textarea>
+          <div class="reflect__foot"><span class="reflect__note">For your own planning.</span><button class="reflect__save" type="button">Save note</button></div>
+        </div>
+
+        <p>I encourage you to share your action with a colleague or mentor. <strong>Quality assurance works best as a conversation.</strong></p>
+
+        <div class="gate" data-gate></div>
+
+        <h2>Resources and references</h2>
+        <p class="placeholder-note">[Production note: verify current editions and links before publishing. Clause numbers throughout refer to Version 4.0 of the Regulations; check them against the current published version before release.]</p>
+
+        <h3>SETU &mdash; the primary reference for this unit</h3>
+        <ul class="reflist">
+          <li><em>Academic Regulations for Taught Programmes 2026-2027</em>, Version 4.0, approved by Academic Council on 19 May 2026</li>
+          <li>Summary of changes from 2025-2026</li>
+          <li>SETU Quality Framework</li>
+          <li>Supporting documents (ADF and SAM versions): Examination Rules; External Examining; Viewing Examination Scripts and Review Procedures, or Recheck and Academic Appeals; Work Placement of Learners &mdash; all listed on the SETU Quality Assurance page</li>
+          <li>Student Academic Misconduct Policy and Disciplinary Procedure; SETU Generic Award Standards</li>
+        </ul>
+
+        <h3>Quality and Qualifications Ireland (QQI)</h3>
+        <ul class="reflist">
+          <li>Core Statutory Quality Assurance Guidelines</li>
+          <li>Assessment and Standards (revised edition)</li>
+          <li>Topic-specific and sector-specific statutory QA guidelines, for example on blended learning</li>
+          <li>NFQ level indicators and award standards for Levels 7, 8 and 9</li>
+        </ul>
+
+        <h3>National Forum for the Enhancement of Teaching and Learning</h3>
+        <ul class="reflist">
+          <li>Publications on assessment and feedback, including the Assessment OF/FOR/AS Learning resources and guidance on authentic assessment</li>
+          <li>Guidance and resources on generative AI in teaching and assessment</li>
+        </ul>
+
+        <h3>European</h3>
+        <ul class="reflist">
+          <li>Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG, 2015)</li>
+        </ul>
+
+        <h3>Theory and research</h3>
+        <ol class="refcite">
+          <li>Biggs, J. (1996). Enhancing teaching through constructive alignment. <em>Higher Education</em>, 32.</li>
+          <li>Bloxham, S., &amp; Boyd, P. (2007). <em>Developing Effective Assessment in Higher Education.</em> Open University Press.</li>
+          <li>Harvey, L., &amp; Green, D. (1993). Defining quality. <em>Assessment &amp; Evaluation in Higher Education</em>, 18(1).</li>
+          <li>Harvey, L., &amp; Newton, J. (2007). Transforming quality evaluation: Moving on. In D. Westerheijden et al. (Eds.), <em>Quality Assurance in Higher Education.</em></li>
+          <li>Sadler, D. R. (2009). Indeterminacy in the use of preset criteria for assessment and grading. <em>Assessment &amp; Evaluation in Higher Education</em>, 34(2).</li>
+        </ol>
+
+        <h3>Institutional documents</h3>
+        <p class="placeholder-note">[Insert locally: your institution's own documents and links.]</p>
+
+        <div class="gate" data-gate></div>
+        <!-- Progress dashboard -->
+        <div class="widget dashboard" data-dashboard>
+          <div class="kc__tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"></use></svg> Your progress summary</div>
+          <div class="dashboard__tiles">
+            <div class="dash-tile"><div class="dash-num" id="dashSections">0/7</div><div class="dash-lbl">Sections viewed</div></div>
+            <div class="dash-tile"><div class="dash-num" id="dashReflections">0/8</div><div class="dash-lbl">Reflections written</div></div>
+            <div class="dash-tile"><div class="dash-num" id="dashActs">0/12</div><div class="dash-lbl">Activities explored</div></div>
+          </div>
+          <div class="dashboard__status" id="dashStatus" role="status"></div>
+          <div class="dashboard__actions">
+            <button class="btn btn--sm" id="exportNotes" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-download"></use></svg> Download my action plan</button>
+          </div>
+        </div>
+
+        <!-- Completion -->
+        <div class="complete">
+          <span class="u-watermark" aria-hidden="true"></span>
+          <div class="complete__badge" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cap"></use></svg></div>
+          <h2>Thank you for taking part.</h2>
+          <p>You can now sit on a board, sign off a result or defend a grade with more confidence &mdash; and you know where to look in the Regulations when you do.</p>
+          <div style="margin-top:20px">
+            <button class="btn btn--primary" id="finishBtn" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Complete unit</button>
+          </div>
+        </div>
+
+        <div class="lesson-nav">
+          <button class="btn btn--ghost" data-prev><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"></use></svg> <span class="long">Common QA pitfalls</span></button>
+          <button class="btn" id="restartBtn" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-rotate"></use></svg> Back to start</button>
+        </div>
+      </section>
+
+    </main><!-- /content-scroll -->
+  </div><!-- /main -->
+</div><!-- /app -->
+
+<script src="js/course.config.js"></script>
+<script src="js/core.js"></script>
+<script src="js/scorm.js"></script>
+<script src="js/analytics.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/confetti.js"></script>
+<script src="js/interactions.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/rise.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
