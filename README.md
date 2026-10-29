@@ -406,3 +406,10 @@ The SETU guide describes a white-background identity. An optional, restrained
 in the sidebar). The default is the on-brand light theme; the dark theme keeps
 Slate Grey and the approved accents.
 
+## Credits
+
+A one-line credit sits at the very end of the last section
+(`<p class="credits">` in `index.html`, styled at the end of `css/styles.css`):
+*Developed by the Department of Lifelong Learning and the Centre for Academic
+Practice with assistance from ChatGPT and Claude Code. © 2026, SETU.* Edit it in
+place if the wording changes.
